@@ -1,0 +1,22 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hypedGrad" x1="18" y1="16" x2="112" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <radialGradient id="hypedGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(22 20) rotate(45) scale(110)">
+      <stop stop-color="#38BDF8" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0.95"/>
+    </radialGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="32" fill="#020617"/>
+  <rect x="10" y="10" width="108" height="108" rx="30" fill="url(#hypedGlow)"/>
+  <rect x="10" y="10" width="108" height="108" rx="30" stroke="url(#hypedGrad)" stroke-opacity="0.9" stroke-width="3"/>
+  <path
+    d="M44 88V40H56.5L64 59.5L71.5 40H84V88H73V61.2L64 80H63.8L55 61.2V88H44Z"
+    fill="white"
+  />
+</svg>
+
+
